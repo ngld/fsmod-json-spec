@@ -30,7 +30,7 @@
                     "status": "<required|recommended|optional>",
                     "dependencies": [ // optional
                         {
-                            "id": "<mod ID>", // required
+                            "id": "<mod ID>", // required, special values: self, retail
                             "version": "1.2.*", // required, https://getcomposer.org/doc/01-basic-usage.md#package-versions
                             "packages": [] // optional, specifies which optional and recommended packages are also required
                         },
